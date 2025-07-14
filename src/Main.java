@@ -13,5 +13,9 @@ public class Main {
         jyoti.removeTask(2);
 
         jyoti.displayTasks();
+
+        jyoti.changeStatus(3);
+
+        jyoti.displayTasks();
     }
 }

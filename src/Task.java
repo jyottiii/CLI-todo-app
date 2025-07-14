@@ -22,8 +22,11 @@ public class Task {
         return taskStatus;
     }
 
-
     public String toString(){
         return (taskId +" : "+taskName+" : "+ taskStatus);
+    }
+
+    public void changeTaskStatus(){
+        this.taskStatus = "completed";
     }
 }

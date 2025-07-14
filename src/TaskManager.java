@@ -21,4 +21,13 @@ public class TaskManager {
             System.out.println(t);
         }
     }
+
+    public void changeStatus(int taskId){
+        for (Task t : tasks) {
+            if (t.getTaskId() == taskId) {
+                t.changeTaskStatus();
+                break;
+            }
+        }
+    }
 }
