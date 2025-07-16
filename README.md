@@ -29,3 +29,13 @@ CLI-todo-app/
 | `display`                | Show all current tasks                 |
 | `save`                   | Save all tasks to `tasks.txt` file     |
 | `exit`                   | Exit the application                   |
+
+## 🧪 Example
+
+add 1 "Finish homework"
+add 2 "Do laundry"
+taskcomplete 1
+display
+1 : Finish homework : completed
+2 : Do laundry : pending
+save
