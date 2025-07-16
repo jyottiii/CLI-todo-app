@@ -10,6 +10,13 @@ public class Task {
         this.taskStatus = "pending";
     }
 
+    public Task(int taskId, String taskName, String taskStatus){
+        this.taskId = taskId;
+        this.taskName = taskName;
+        this.taskStatus = taskStatus;
+    }
+
+
     public int getTaskId(){
         return taskId;
     }
